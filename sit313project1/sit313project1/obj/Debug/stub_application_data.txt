@@ -1,2 +1,0 @@
-android.app.Application
-sit313project1.sit313project1
