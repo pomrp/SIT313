@@ -450,11 +450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IT\\SIT313\\sit313project1\\project1\\project1\\project1\\project1.csproj",
+      "projectUniqueName": "E:\\IT\\SIT313\\sit313\\SIT313\\project1\\project1\\project1\\project1.csproj",
       "projectName": "project1",
-      "projectPath": "E:\\IT\\SIT313\\sit313project1\\project1\\project1\\project1\\project1.csproj",
+      "projectPath": "E:\\IT\\SIT313\\sit313\\SIT313\\project1\\project1\\project1\\project1.csproj",
       "packagesPath": "C:\\Users\\hasee\\.nuget\\packages\\",
-      "outputPath": "E:\\IT\\SIT313\\sit313project1\\project1\\project1\\project1\\obj\\",
+      "outputPath": "E:\\IT\\SIT313\\sit313\\SIT313\\project1\\project1\\project1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
