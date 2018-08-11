@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="Design Library"
+        android:text="Welcome"
         android:textSize="30sp"
         android:textColor="#333333"
         android:layout_gravity="top" />

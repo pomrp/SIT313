@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using Java.Lang;
 using Android.Views;
 using Android.Content;
+using project1demo.Fragments;
 
 namespace project1demo
 {
@@ -55,19 +56,7 @@ namespace project1demo
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
 
-            fab.Click += (o, e) =>
-            {
-                View anchor = o as View;
-
-                Snackbar.Make(anchor, "Thank you!", Snackbar.LengthLong)
-                        .SetAction("Action", v =>
-                        {
-                            //Do something here
-                            Intent intent = new Intent(fab.Context, typeof(BottomSheetActivity));
-                            StartActivity(intent);
-                        })
-                        .Show();
-            };
+           
         }
 
         private void SetupViewPager(ViewPager viewPager)
@@ -75,7 +64,7 @@ namespace project1demo
             TabAdapter adapter = new TabAdapter(SupportFragmentManager);
             adapter.AddFragment(new Fragment1(), "Home");
             adapter.AddFragment(new Fragment2(), "LogIn");
-            adapter.AddFragment(new Fragment3(), "Feedback");
+            adapter.AddFragment(new Fragment3(), "About");
 
             viewPager.Adapter = adapter;
         }
